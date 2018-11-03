@@ -26,7 +26,8 @@ public final class Art {
         if (!available()) { throw new SkipException("ART_RUNTIME env variable not set"); }
         return new ProcessExecutor()
                 .command(ImmutableList.<String>builder()
-                                 .add(PATH, "-cp", dex.toString(), mainClass)
+                                 .add(PATH.split(" "))
+                                 .add("-cp", dex.toString(), mainClass)
                                  .add(args)
                                  .build())
                 .exitValueAny()
