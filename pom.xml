@@ -9,6 +9,31 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
+    <name>Valda</name>
+    <description>Intermediate representation for the DEX file format</description>
+    <url>https://github.com/Valda-IR/Valda-IR</url>
+
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Jonas Konrad</name>
+            <email>me@yawk.at</email>
+            <url>https://yawk.at</url>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:https://github.com/Valda-IR/Valda-IR.git</connection>
+        <developerConnection>scm:git:git@github.com:Valda-IR/Valda-IR.git</developerConnection>
+        <url>http://github.com/Valda-IR/Valda-IR/tree/master</url>
+    </scm>
+
     <modules>
         <module>valda-ir</module>
         <module>valda-kotlin</module>
