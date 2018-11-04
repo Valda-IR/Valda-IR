@@ -3,7 +3,7 @@
     <parent>
         <artifactId>valda-parent</artifactId>
         <groupId>at.yawk.valda</groupId>
-        <version>1.0.0</version>
+        <version>1.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 

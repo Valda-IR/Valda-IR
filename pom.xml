@@ -5,7 +5,7 @@
     <groupId>at.yawk.valda</groupId>
     <artifactId>valda-parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <name>Valda</name>
     <description>Intermediate representation for the DEX file format</description>
@@ -30,7 +30,7 @@
         <connection>scm:git:https://github.com/Valda-IR/Valda-IR.git</connection>
         <developerConnection>scm:git:git@github.com:Valda-IR/Valda-IR.git</developerConnection>
         <url>http://github.com/Valda-IR/Valda-IR/tree/master</url>
-      <tag>valda-1.0.0</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <modules>
